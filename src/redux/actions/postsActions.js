@@ -5,7 +5,3 @@ export const setPosts = (posts) => ({
     payload: posts
 });
 
-export const setDetailPostId = (detailPostId) => ({
-    type: actionsTypes.SET_DETAIL_POST_ID,
-    payload: detailPostId
-});
