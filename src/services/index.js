@@ -5,3 +5,7 @@ const baseUrl = 'https://jsonplaceholder.typicode.com';
 export const getAllPosts = () => {
     return axios.get(`${baseUrl}/posts`);
 }
+
+export const getDetailPost= (id) => {
+    return axios.get(`${baseUrl}/posts/${id}`);
+}
