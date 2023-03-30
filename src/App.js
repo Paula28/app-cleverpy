@@ -1,10 +1,6 @@
-import Main from './pages/Main';
 import "./styles.scss";
+import { BrowserRouter as Router } from 'react-router-dom';
 
-function App() {
-  return (
-    <Main/>
-  );
-}
+const App = ({ children }) => <Router>{children}</Router>;
 
 export default App;
