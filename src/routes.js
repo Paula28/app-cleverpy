@@ -12,8 +12,8 @@ import ScreenDetailPost from './pages/ScreenDetailPost';
 const AppRoutes = () => (
     <App>
         <Switch>
-            <Redirect from="/" exact to="/login" />
-            <Route path="/login" component={Main} />
+            <Redirect from="/" exact to="/main" />
+            <Route path="/main" component={Main} />
             <Route path="/post/:id"component={ScreenDetailPost} />
             {/* <Route path="/users/edit/:id" component={EditUser} />
             <Route path="/users" component={Users} />

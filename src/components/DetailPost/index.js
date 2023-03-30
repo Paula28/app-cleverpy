@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 function DetailPost() {
   const [dataPost, setDataPost] = useState(null)
   const { id } = useParams();
-  console.log(id)
+
   const init = async () => {
     const dataPostId = await getDetailPost(id)
     setDataPost(dataPostId?.data)
