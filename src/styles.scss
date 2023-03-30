@@ -1,0 +1,34 @@
+//COMPONENT LISTPOST
+
+.container-list-post {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 6%;
+}
+
+//COMPONENT POST
+
+.container-post{
+    width: 500px;
+    cursor: pointer;
+    .post{
+        max-width: 300px;
+        height: 215px;
+        margin: 30px 10px;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+        transition: 0.4s ease-in-out;
+        border-radius: 10px;
+    }
+}
+.container-card {
+    .card:hover {
+        height: 320px;
+    }
+}
