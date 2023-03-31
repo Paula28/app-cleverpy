@@ -9,3 +9,7 @@ export const getAllPosts = () => {
 export const getDetailPost= (id) => {
     return axios.get(`${baseUrl}/posts/${id}`);
 }
+
+export const getCommentsInPost= (id) => {
+    return axios.get(`${baseUrl}/posts/${id}/comments`);
+}

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { getDetailPost } from '../../services'
 import { useParams } from 'react-router-dom';
+import CommentsInPost from '../CommentsInPost';
 
 function DetailPost() {
   const [dataPost, setDataPost] = useState(null)
@@ -34,6 +35,7 @@ function DetailPost() {
           <label className='label-title'>Body </label> <span>{dataPost?.body}</span>
         </div>
       </div>
+      <CommentsInPost id={id}/>
     </div>
   )
 }
