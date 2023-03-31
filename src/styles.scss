@@ -9,7 +9,7 @@ $color-turquoise: rgb(168, 230, 206);
 $color-light-salmon: rgb(255, 170, 166);
 $color-salmon: rgb(255, 140, 148);
 $color-violet-dark: rgb(179, 128, 204);
-
+$color-magenta: rgb(255, 0, 153);
 .container-list-post {
     display: flex;
     flex-wrap: wrap;
@@ -136,4 +136,30 @@ h2::first-letter{
     height: 0.5px;
     width: 100%;
     box-shadow: 0 2px 2px 2px $color-light-salmon;
+}
+.navbar {
+    height: 80px;
+    width: 100vw;
+    background-color: $color-lilac;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    img{
+        height: 80px;
+        background-color: white;
+        border-radius: 100%;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    div, a{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
 }
