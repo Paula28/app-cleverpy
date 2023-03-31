@@ -22,18 +22,12 @@ function DetailPost() {
   return (
     <div className='container-detail-post'>
       <div className='container-info'>
-        <div>
-          <label className='label-title'>User ID </label> <span>{dataPost?.userId}</span>
+        <div className='title-detail'>
+          <h2>{dataPost?.title}</h2>
         </div>
-        <div>
-          <label className='label-title'>ID </label> <span>{dataPost?.id}</span>
-        </div>
-        <div>
-          <label className='label-title'>Title </label> <span>{dataPost?.title}</span>
-        </div>
-        <div>
-          <label className='label-title'>Body </label> <span>{dataPost?.body}</span>
-        </div>
+        <p className='body-detail'>
+          {dataPost?.body}
+        </p>
       </div>
       <CommentsInPost id={id}/>
     </div>

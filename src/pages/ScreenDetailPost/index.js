@@ -3,7 +3,7 @@ import DetailPost from '../../components/DetailPost'
 
 function ScreenDetailPost() {
   return (
-    <div><DetailPost/></div>
+    <div className='container-screen-detail'><DetailPost/></div>
   )
 }
 

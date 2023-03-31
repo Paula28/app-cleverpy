@@ -11,13 +11,13 @@ function Post({post}) {
     <div className='container-post'>
         <div className='post' onClick={handleClick}>
             <span>
-                <b>User Id: </b>{post?.userId}        
+                Username: {post?.userId}        
             </span>
-            <span>
-                <b>Title: </b>{post?.title}        
+            <span className='data-title'>
+                {post?.title}
             </span>
-            <span>
-                <b>Body: </b>{post?.body}        
+            <span className='data-body'>
+               {post?.body}        
             </span>
         </div>      
     </div>

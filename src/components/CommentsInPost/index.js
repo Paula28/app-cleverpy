@@ -15,27 +15,15 @@ function CommentsInPost({id}) {
     }
     // eslint-disable-next-line
   }, [id])
-  console.log({comments})
   
   return (
-    <div>
+    <div className='container-comments'>
+      <h2>Comments</h2>
+      <span className='line-separator' />
       {comments?.length > 0 && comments.map((comment) => 
-      <div>
-        <div>
-          <label className='label-title'>User Id </label> <span>{comment?.userId}</span>
-        </div>
-        <div>
-          <label className='label-title'>Id Comment </label> <span>{comment?.id}</span>
-        </div>
-        <div>
-          <label className='label-title'>Name </label> <span>{comment?.name}</span>
-        </div>
-        <div>
-          <label className='label-title'>Email </label> <span>{comment?.email}</span>
-        </div>
-        <div>
-          <label className='label-title'>Body </label> <span>{comment?.body}</span>
-        </div>
+      <div className='comment'>
+        <small>{comment?.name} - {comment?.email}</small>
+        <p>{comment?.body}</p>
       </div>
       )}
     </div>
