@@ -1,5 +1,15 @@
 //COMPONENT LISTPOST
 
+$color-light-green: rgba(222,230,221,255);
+$color-violet-dark: rgba(147,95,170,255);
+$color-lilac: rgba(223,214,235,255);
+$color-salmon: rgb(255, 171, 171);
+$color-violet: rgb(217, 171, 255);
+$color-turquoise: rgb(168, 230, 206);
+$color-light-salmon: rgb(255, 170, 166);
+$color-salmon: rgb(255, 140, 148);
+$color-violet-dark: rgb(179, 128, 204);
+
 .container-list-post {
     display: flex;
     flex-wrap: wrap;
@@ -22,13 +32,108 @@
         padding: 20px 15px;
         display: flex;
         flex-direction: column;
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 5px 10px 2px $color-lilac;
         transition: 0.4s ease-in-out;
-        border-radius: 10px;
+        border-radius: 5px;
+        justify-content: space-around;
+    }
+    .data-title{
+        font-weight: 500;
+        font-style: italic;
+    
+    }
+    .data-body{
+        white-space: nowrap; 
+        width: 300px; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
     }
 }
 .container-card {
     .card:hover {
         height: 320px;
     }
+}
+
+//First letter upperCase
+
+span::first-letter{
+    text-transform: capitalize; 
+}
+p::first-letter{
+    text-transform: capitalize;  
+}
+h2::first-letter{
+    text-transform: capitalize;  
+}
+
+
+//Screen Detail Post
+
+.container-screen-detail{
+    display: flex;
+    justify-content: center;
+}
+
+//Detail Post
+
+.container-detail-post{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    
+    .title-detail{//AQUII
+        width: 100vw;
+        height: 60px;
+        color: $color-turquoise;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-style: italic;
+        font-weight: bold;
+        font-family: "Gill Sans Extrabold", Helvetica, sans-serif
+    }
+    
+    .body-detail{
+        width: 80vw;
+        margin-left: 10vw;
+        box-shadow: 0 5px 10px 2px $color-turquoise;
+        margin-top: 20px;
+        padding: 20px;
+        font-size: 18px;
+    }
+    
+}
+
+//Comments In Post
+
+.container-comments{
+    width: 80vw;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    h2 {
+        color: $color-salmon;
+    }
+    .comment {
+        margin-top: 20px;
+
+        margin-bottom: 20px;
+        padding: 10px;
+        box-shadow: 0 5px 5px 3px $color-light-green;
+        transition: 0.4s ease-in-out;
+        border-radius: 5px;
+    }
+}
+
+.line-separator {
+    height: 0.5px;
+    width: 100%;
+    box-shadow: 0 2px 2px 2px $color-light-salmon;
 }
