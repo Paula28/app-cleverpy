@@ -9,3 +9,8 @@ export const setCommentsInPost = (comments) => ({
     type: actionsTypes.SET_COMMENTS_IN_POST,
     payload: comments
 });
+
+export const setLoggedUser = (user) => ({
+    type: actionsTypes.SET_LOGGED_USER,
+    payload: user
+});

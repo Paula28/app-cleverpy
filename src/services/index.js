@@ -13,3 +13,7 @@ export const getDetailPost= (id) => {
 export const getCommentsInPost= (id) => {
     return axios.get(`${baseUrl}/posts/${id}/comments`);
 }
+
+export const getAllUsers = () => {
+    return axios.get(`${baseUrl}/users`);
+}
