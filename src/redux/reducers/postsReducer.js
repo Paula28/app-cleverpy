@@ -13,6 +13,13 @@ const postsReducer = (state = initialState, action) => {
                 posts: action.payload
             }    
             break;
+
+        case actionTypes.SET_COMMENTS_IN_POST:
+            newState = {
+                ...state,
+                comments: action.payload
+            }    
+            break;
  
         default:
             newState =  state;

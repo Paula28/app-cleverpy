@@ -5,3 +5,7 @@ export const setPosts = (posts) => ({
     payload: posts
 });
 
+export const setCommentsInPost = (comments) => ({
+    type: actionsTypes.SET_COMMENTS_IN_POST,
+    payload: comments
+});
