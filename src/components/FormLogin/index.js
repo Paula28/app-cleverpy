@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useHistory } from "react-router-dom";
 import { useDispatch } from 'react-redux'
-import { setLoggedUser } from '../../redux/actions/postsActions';
+import { setLoggedUser, setUsers } from '../../redux/actions/postsActions';
 import { getAllUsers } from '../../services'
 
 function FormLogin() {
@@ -22,6 +22,7 @@ function FormLogin() {
     const init = async () => {
         setLoading(true)
         const res = await getAllUsers();
+        dispatch(setUsers(res?.data))
         setUserList(res?.data)
         setLoading(false)
     }

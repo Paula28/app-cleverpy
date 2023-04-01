@@ -15,3 +15,8 @@ export const setLoggedUser = (user) => ({
     payload: user
 });
 
+export const setUsers = (users) => ({
+    type: actionsTypes.SET_USERS,
+    payload: users
+})
+

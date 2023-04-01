@@ -36,13 +36,30 @@ $color-magenta: rgb(255, 0, 153);
         height: 215px;
         margin: 30px 10px;
         padding: 20px 15px;
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        align-content: space-around;
         box-shadow: 0 5px 10px 2px $color-lilac;
         transition: 0.4s ease-in-out;
         border-radius: 5px;
-        justify-content: space-around;
+        justify-content: space-between;
+        img{
+            height: 20px;
+            width: 20px;
+        }
+        .title-post {
+            display: flex;
+            justify-content: space-between;
+            .icon-edit{
+                cursor: url('imgCursor/handle.png'), auto;
+                width: 25px;
+                height: 25px;
+            }
+            .icon-edit:hover{
+                opacity: 0.7;
+            }
+        }
     }
+  
     .data-title{
         font-weight: 500;
         font-style: italic;
@@ -54,6 +71,7 @@ $color-magenta: rgb(255, 0, 153);
         overflow: hidden;
         text-overflow: ellipsis; 
     }
+    
 }
 .container-card {
     .card:hover {
@@ -72,7 +90,6 @@ p::first-letter{
 h2::first-letter{
     text-transform: capitalize;  
 }
-
 
 //Screen Detail Post
 
@@ -237,6 +254,78 @@ h2::first-letter{
             }
         }
         .login-error {
+            font-size: 12px;
+            color: red;
+            margin-top: 10px; 
+        }
+    }
+}
+
+//Form Edit Post
+.container-form-edit{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    .form {
+        margin-top: 10%;
+        box-shadow: 0 2px 2px 2px $color-light-salmon;
+        padding: 30px;
+        width: 250px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-evenly;
+        span {
+            font-size: 16px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        input {
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid grey;
+        }
+        textarea {
+            height: 300px;
+            resize: vertical;
+        }
+        .button-container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            button {
+                width: 40%;
+                margin-top: 10px;
+                font-size: 16px;
+                height: 40px;
+                border: 1px solid $color-light-salmon;
+                color: $color-light-salmon;
+                background-color: white;
+                border-radius: 5px;
+    
+                &:hover {
+                    color: white;
+                    border: 1px solid white;
+                    background-color: $color-light-salmon;
+                    cursor: pointer;
+                }
+    
+                &:disabled {
+                    color: white;
+                    border: 1px solid grey;
+                    background-color: grey;
+                    cursor: auto;
+                }
+            }
+        }
+        .edit-error {
             font-size: 12px;
             color: red;
             margin-top: 10px; 
