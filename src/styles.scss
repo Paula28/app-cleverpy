@@ -10,6 +10,12 @@ $color-light-salmon: rgb(255, 170, 166);
 $color-salmon: rgb(255, 140, 148);
 $color-violet-dark: rgb(179, 128, 204);
 $color-magenta: rgb(255, 0, 153);
+$color-blue: rgb(149,185,244);
+$color-light-blue: rgb(12,183,242);
+$color-cian: rgb(83,212,255);
+$color-white: rgb(255,255,255);
+$color-black: rgb(0, 0, 0);
+$color-dark-cian: rgb(0, 139, 139);
 .container-list-post {
     display: flex;
     flex-wrap: wrap;
@@ -118,27 +124,33 @@ h2::first-letter{
     justify-content: space-around;
     align-items: center;
     width: 100vw;
+    .container-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     
-    .title-detail{//AQUII
+    }    
+   
+    .title-detail{
         width: 100vw;
         height: 60px;
-        color: $color-turquoise;
+        color: $color-blue;
         font-size: 18px;
         display: flex;
         align-items: center;
         justify-content: center;
         font-style: italic;
         font-weight: bold;
-        font-family: "Gill Sans Extrabold", Helvetica, sans-serif
+        font-family: cursive;
     }
     
     .body-detail{
         width: 80vw;
         margin-left: 10vw;
-        box-shadow: 0 5px 10px 2px $color-turquoise;
         margin-top: 20px;
         padding: 20px;
         font-size: 18px;
+        font-family: monospace;
     }
     
 }
@@ -152,24 +164,26 @@ h2::first-letter{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    font-family: 'Courier New', Courier, monospace;
     h2 {
         color: $color-salmon;
+        
     }
     .comment {
         margin-top: 20px;
-
         margin-bottom: 20px;
         padding: 10px;
-        box-shadow: 0 5px 5px 3px $color-light-green;
+        box-shadow: 0 5px 5px 3px $color-lilac ;
         transition: 0.4s ease-in-out;
         border-radius: 5px;
+       
     }
 }
 
 .line-separator {
     height: 0.5px;
-    width: 100%;
-    box-shadow: 0 2px 2px 2px $color-light-salmon;
+    width: 90%;
+    box-shadow: 0 2px 2px 2px $color-violet
 }
 .navbar {
     height: 80px;
@@ -226,34 +240,35 @@ h2::first-letter{
     overflow: hidden;
 
     .container-form-login {
-        box-shadow: 0 2px 2px 2px $color-light-salmon;
         padding: 30px;
         width: 250px;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
+        background-color: $color-cian;
         span {
             font-size: 16px;
             margin-bottom: 10px;
+            color: $color-white;
         }
         input {
             height: 30px;
             border-radius: 5px;
-            border: 1px solid grey;
+            border: 1px solid $color-light-blue;
         }
         button {
             margin-top: 10px;
             font-size: 16px;
             height: 40px;
-            border: 1px solid $color-light-salmon;
-            color: $color-light-salmon;
+            border: 1px solid $color-light-blue;
+            color: $color-cian;
             background-color: white;
             border-radius: 5px;
 
             &:hover {
                 color: white;
                 border: 1px solid white;
-                background-color: $color-light-salmon;
+                background-color: $color-light-blue;
                 cursor: pointer;
             }
 
@@ -283,27 +298,35 @@ h2::first-letter{
 
     .form {
         margin-top: 10%;
-        box-shadow: 0 2px 2px 2px $color-light-salmon;
         padding: 30px;
-        width: 250px;
-        border-radius: 5px;
+        width: 800px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: space-evenly;
+        border-radius: 5px;
+        border: 1px solid $color-lilac;
+        box-shadow: 0 5px 10px 2px $color-lilac;
+
         span {
             font-size: 16px;
             margin-bottom: 10px;
             margin-top: 10px;
+            color: $color-black;
         }
         input {
-            height: 30px;
-            border-radius: 5px;
-            border: 1px solid grey;
+            height: 30px;   
+            border: 0px;  
+            border-bottom: 1px solid $color-lilac;
+            font-size: 16px;
         }
         textarea {
             height: 300px;
             resize: vertical;
+            border: 1px solid $color-lilac;
+            border-radius: 2px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
         }
         .button-container {
             width: 100%;
@@ -313,18 +336,20 @@ h2::first-letter{
             align-items: center;
             button {
                 width: 40%;
-                margin-top: 10px;
+                margin-top: 30px;
                 font-size: 16px;
                 height: 40px;
-                border: 1px solid $color-light-salmon;
-                color: $color-light-salmon;
+                border: 1px solid $color-lilac;
+                color: $color-lilac;
                 background-color: white;
                 border-radius: 5px;
+                font-weight: bold;
+                
     
                 &:hover {
                     color: white;
                     border: 1px solid white;
-                    background-color: $color-light-salmon;
+                    background-color: $color-lilac;
                     cursor: pointer;
                 }
     
