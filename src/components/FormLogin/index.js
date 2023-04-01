@@ -50,7 +50,7 @@ function FormLogin() {
 
     return (
         <div className='container-form-login'>
-            <img src='img/logo.png' />
+            <img src='img/logoWhite.png' />
             <span>Insert your mail or username</span>
             <input type="text" onKeyDown={handleKeyPressed} onChange={(e) => setUser(`${e.target.value || ""}`.trim().toLowerCase())} value={user} />
             {
