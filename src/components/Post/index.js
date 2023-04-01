@@ -5,7 +5,9 @@ function Post({post}) {
     const history = useHistory();
 
     const handleClick = () => {
-        history.push(`/post/${post?.id}`);
+        // history.push(`/post/${post?.id}`);
+        history.push(`/post/${post?.id}/edit`);
+
     }
     return (
     <div className='container-post'>

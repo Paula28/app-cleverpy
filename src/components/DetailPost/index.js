@@ -5,11 +5,14 @@ import CommentsInPost from '../CommentsInPost';
 
 function DetailPost() {
   const [dataPost, setDataPost] = useState(null)
+  const [loading, setLoading] = useState(false)
   const { id } = useParams();
 
   const init = async () => {
+    setLoading(true)
     const dataPostId = await getDetailPost(id)
     setDataPost(dataPostId?.data)
+    setLoading(false)
 
 }
   useEffect(() => {
@@ -18,6 +21,8 @@ function DetailPost() {
     }
     // eslint-disable-next-line
   }, [id])
+  if (loading)
+    return <div></div>
 
   return (
     <div className='container-detail-post'>
