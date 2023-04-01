@@ -8,7 +8,6 @@ function CommentsInPost({id}) {
   const init = async () => {
     setLoading(true)
     const dataComments = await getCommentsInPost(id)
-    console.log(dataComments)
     setComments(dataComments?.data)
     setLoading(false)
 }
