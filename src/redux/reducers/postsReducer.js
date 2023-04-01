@@ -2,6 +2,7 @@ import * as actionTypes from '../actions/actionsTypes';
 
 const initialState = {
     posts: [],
+    users: [],
     loggedUser: null
 }
 
@@ -28,7 +29,12 @@ const postsReducer = (state = initialState, action) => {
                 loggedUser: action.payload
             }
             break;
-            
+        case actionTypes.SET_USERS:
+            newState = {
+                ...state,
+                users: action.payload
+            }
+            break;
         default:
             newState =  state;
     }
