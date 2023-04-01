@@ -44,11 +44,10 @@ You will see the delete post in the home page and it will show a pop up in the f
 
 
 ### `Developer data`
-Hello! My name is Paula, I've been a full-stack developer for three years, specializing in front-end for two years. I started working with Django. After a year I became a full-stack programmer and it was where I created my first project with Django and React. I am looking for new goals where I can continue learning and specializing and acquiring more skills in the field of development. I have managed my own team, I have also gained experience in managing tasks and time. And I am a very sociable person and I love working in a team. Now I am going to tell you about my hobbies I love reading I could spend a whole day reading, I love my animals I present them to you I have four dogs Bella ![bella](https://user-images.githubusercontent.com/35850550/229323113-1e5586b7-2c42-447e-8116-a164edbe97e8.jpeg)Dama,
-![dama](https://user-images.githubusercontent.com/35850550/229323111-9a40809d-e3ae-40d6-b195-6de9936b62d0.jpeg)Thor, 
-![thor](https://user-images.githubusercontent.com/35850550/229323110-7ac57238-999b-4823-b84b-73bc405605fa.jpeg)Kuma and 
-![kuma](https://user-images.githubusercontent.com/35850550/229323109-949299e4-c251-45da-a4fd-67fbe085f8e1.jpeg)a cat named ![odin](https://user-images.githubusercontent.com/35850550/229323108-324467fe-50d5-47f4-b79e-7233502019a5.jpeg)
-
-Odin, I love making desserts and my dream It is being able to have a house where I have an incredible patio to be able to enjoy with my dogs and in the future to be able to rescue different animals.
+Hello! My name is Paula, I've been a full-stack developer for three years, specializing in front-end for two years. I started working with Django. After a year I became a full-stack programmer and it was where I created my first project with Django and React. I am looking for new goals where I can continue learning and specializing and acquiring more skills in the field of development. I have managed my own team, I have also gained experience in managing tasks and time. And I am a very sociable person and I love working in a team. Now I am going to tell you about my hobbies I love reading I could spend a whole day reading, I love my animals I present them to you I have four dogs Bella, Dama, Thor, Kuma and a cat named Odin ![bella](https://user-images.githubusercontent.com/35850550/229323113-1e5586b7-2c42-447e-8116-a164edbe97e8.jpeg)
+![dama](https://user-images.githubusercontent.com/35850550/229323111-9a40809d-e3ae-40d6-b195-6de9936b62d0.jpeg) 
+![thor](https://user-images.githubusercontent.com/35850550/229323110-7ac57238-999b-4823-b84b-73bc405605fa.jpeg) 
+![kuma](https://user-images.githubusercontent.com/35850550/229323109-949299e4-c251-45da-a4fd-67fbe085f8e1.jpeg)![odin](https://user-images.githubusercontent.com/35850550/229323108-324467fe-50d5-47f4-b79e-7233502019a5.jpeg)
+I love making desserts and my dream It is being able to have a house where I have an incredible patio to be able to enjoy with my dogs and in the future to be able to rescue different animals.
 
 
