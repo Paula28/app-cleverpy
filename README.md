@@ -1,6 +1,6 @@
 # Cleverpy
 ***
-Cleverpy is a web application that allows registered users and once logged in, they can see our blog with all posts. Another functionality that our application has is to allow the user to edit their posts and delete them. In this project we have decided to create the frontend with <img src="./icons/React-Dark.svg" width="48"> React, call an external API and layout our web application with <img src="./icons/Sass.svg" width="48">SASS and   <img src="./icons/HTML.svg" width="48">HTML and all our code has been written in <img src="./icons/VisualStudio-Dark.svg" width="48">Visual Studio Code
+Cleverpy is a web application that allows registered users and once logged in, they can see our blog with all posts. Another functionality that our application has is to allow the user to edit their posts and delete them. In this project we have decided to create the frontend with  React, call an external API and layout our web application with SASS and HTML and all our code has been written in Visual Studio Code
 ## Available Scripts
 
 In the project directory, you can run:
@@ -11,7 +11,7 @@ Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
 
 **Remember that every hour the products you have saved in your cart will be deleted!**. \
-Take care with the version in **<img src="./icons/React-Dark.svg" width="48"> React > 18.2.0 and <img src="./icons/NodeJS-Dark.svg" width="48"> NodeJS > 18.15.** 
+Take care with the version in **React > 18.2.0 and NodeJS > 18.15.** 
 
 1- Git Clone. 
 ```
@@ -44,4 +44,11 @@ You will see the delete post in the home page and it will show a pop up in the f
 
 
 ### `Developer data`
-Hello! My name is Paula, I've been a full-stack developer for three years, specializing in front-end for two years. I started working with Django. After a year I became a full-stack programmer and it was where I created my first project with Django and React. I am looking for new goals where I can continue learning and specializing and acquiring more skills in the field of development. I have managed my own team, I have also gained experience in managing tasks and time. And I am a very sociable person and I love working in a team. Now I am going to tell you about my hobbies I love reading I could spend a whole day reading, I love my animals I present them to you I have four dogs <img src="img/bella.jpeg" width="48">Bella, <img src="img/dama.jpeg" width="48">Dama, <img src="img/thor.jpeg" width="48">Thor and <img src="img/kuma.jpeg" width="48">Kuma and a cat named <img src="img/odin.jpeg" width="48">Odin, I love making desserts and my dream It is being able to have a house where I have an incredible patio to be able to enjoy with my dogs and in the future to be able to rescue different animals.
+Hello! My name is Paula, I've been a full-stack developer for three years, specializing in front-end for two years. I started working with Django. After a year I became a full-stack programmer and it was where I created my first project with Django and React. I am looking for new goals where I can continue learning and specializing and acquiring more skills in the field of development. I have managed my own team, I have also gained experience in managing tasks and time. And I am a very sociable person and I love working in a team. Now I am going to tell you about my hobbies I love reading I could spend a whole day reading, I love my animals I present them to you I have four dogs ![bella](https://user-images.githubusercontent.com/35850550/229323113-1e5586b7-2c42-447e-8116-a164edbe97e8.jpeg)Bella,
+![dama](https://user-images.githubusercontent.com/35850550/229323111-9a40809d-e3ae-40d6-b195-6de9936b62d0.jpeg)Dama, 
+![thor](https://user-images.githubusercontent.com/35850550/229323110-7ac57238-999b-4823-b84b-73bc405605fa.jpeg)Thor and 
+![kuma](https://user-images.githubusercontent.com/35850550/229323109-949299e4-c251-45da-a4fd-67fbe085f8e1.jpeg)Kuma and a cat named ![odin](https://user-images.githubusercontent.com/35850550/229323108-324467fe-50d5-47f4-b79e-7233502019a5.jpeg)
+
+Odin, I love making desserts and my dream It is being able to have a house where I have an incredible patio to be able to enjoy with my dogs and in the future to be able to rescue different animals.
+
+
