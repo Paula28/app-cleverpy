@@ -28,6 +28,7 @@ const postsReducer = (state = initialState, action) => {
                 loggedUser: action.payload
             }
             break;
+            
         default:
             newState =  state;
     }

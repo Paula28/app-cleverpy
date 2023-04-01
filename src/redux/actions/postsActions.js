@@ -14,3 +14,4 @@ export const setLoggedUser = (user) => ({
     type: actionsTypes.SET_LOGGED_USER,
     payload: user
 });
+

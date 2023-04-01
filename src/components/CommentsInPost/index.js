@@ -3,11 +3,14 @@ import { getCommentsInPost } from '../../services'
 
 function CommentsInPost({id}) {
   const [comments, setComments] = useState([])
+  const [loading, setLoading] = useState(false)
   
   const init = async () => {
+    setLoading(true)
     const dataComments = await getCommentsInPost(id)
     console.log(dataComments)
     setComments(dataComments?.data)
+    setLoading(false)
 }
   useEffect(() => {
     if (comments.length === 0) {
@@ -15,6 +18,9 @@ function CommentsInPost({id}) {
     }
     // eslint-disable-next-line
   }, [id])
+  
+  if(loading)
+    return <></>
   
   return (
     <div className='container-comments'>

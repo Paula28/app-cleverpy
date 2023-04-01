@@ -17,3 +17,7 @@ export const getCommentsInPost= (id) => {
 export const getAllUsers = () => {
     return axios.get(`${baseUrl}/users`);
 }
+
+export const putEditPost = (post) => {
+    return axios.put(`${baseUrl}/posts/${post.id}`, JSON.stringify(post));
+}
