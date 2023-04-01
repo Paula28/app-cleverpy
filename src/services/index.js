@@ -21,3 +21,7 @@ export const getAllUsers = () => {
 export const putEditPost = (post) => {
     return axios.put(`${baseUrl}/posts/${post.id}`, JSON.stringify(post));
 }
+
+// export const deletePost = (postId) => {
+//     return axios.detele(`${baseUrl}/posts/${postId}`);
+// }
