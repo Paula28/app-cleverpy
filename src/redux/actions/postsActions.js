@@ -20,3 +20,8 @@ export const setUsers = (users) => ({
     payload: users
 })
 
+export const deletePost = (postId) => ({
+    type: actionsTypes.DELETE_POST,
+    payload: postId
+})
+
