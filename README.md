@@ -42,6 +42,10 @@ In the edit post you will see the menu again with its respective options and the
 **DELETE POST**
 You will see the delete post in the home page and it will show a pop up in the form of a message that will make sure that the user has not clicked incorrectly and deletes your post without wanting it and if, on the contrary, you want to delete it, once it has been deleted, the page will be refreshed and The post we had previously is no longer displayed
 
+**COLOR PALETTE**
+![Screenshot from 2023-04-02 00-57-06](https://user-images.githubusercontent.com/35850550/229323338-946a0583-897f-4e4d-86e5-a6b0a88772ac.png)
+This is our color palette where blue and lilac abound. Although these colors are not warm colors, they give us confidence, strength, a refreshing and energetic sensation. For our login we have used the contrast of blue and white that combine perfectly, then in our home we have our logo with its blue color providing the aforementioned characteristics and a menu with a lilac tone that provides a bit of warmth. In our detail we have opted to add some shades to make a different contrast and so the user does not get bored with the same shades. And the icons because a picture is worth a thousand words.
+
 
 ### `Developer data`
 Hello! My name is Paula, I've been a full-stack developer for three years, specializing in front-end for two years. I started working with Django. After a year I became a full-stack programmer and it was where I created my first project with Django and React. I am looking for new goals where I can continue learning and specializing and acquiring more skills in the field of development. I have managed my own team, I have also gained experience in managing tasks and time. And I am a very sociable person and I love working in a team. Now I am going to tell you about my hobbies I love reading I could spend a whole day reading, I love my animals I present them to you I have four dogs Bella, Dama, Thor, Kuma and a cat named Odin ![bella](https://user-images.githubusercontent.com/35850550/229323113-1e5586b7-2c42-447e-8116-a164edbe97e8.jpeg)
