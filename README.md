@@ -27,8 +27,10 @@ Take care with the version in **React > 18.2.0 and NodeJS > 18.15.**
 ```
 
 ### `How to Use the Project`
+**LOGIN**
+In the login we will find our logo and a small form where the user can log in only if they have a username or email to log in, that is, they are registered.
 
-**MAIN Home**.\
+**MAIN Home**.
 In the home we will see all the posts that our users have published. The logged in user will see a menu that will consist of our company logo that is on the left, with this option you can click and return to the menu if you are on a different screen, on the right you will find your name and email as welcome and a button logout where he can close his session when he finishes seeing all the posts.
 In the body we will find all the posts and the user will see two icons on his card that will allow him to edit or delete according to the choice he wishes to make. And if you click on the card you will be able to access the post where it will show you the post in more detail and you will be able to see the comments of the different users.
 
@@ -43,7 +45,7 @@ In the edit post you will see the menu again with its respective options and the
 You will see the delete post in the home page and it will show a pop up in the form of a message that will make sure that the user has not clicked incorrectly and deletes your post without wanting it and if, on the contrary, you want to delete it, once it has been deleted, the page will be refreshed and The post we had previously is no longer displayed
 
 **COLOR PALETTE**
-This is our color palette where blue and lilac abound. Although these colors are not warm colors, they give us confidence, strength, a refreshing and energetic sensation. For our login we have used the contrast of blue and white that combine perfectly, then in our home we have our logo with its blue color providing the aforementioned characteristics and a menu with a lilac tone that provides a bit of warmth. In our detail we have opted to add some shades to make a different contrast and so the user does not get bored with the same shades. And the icons because a picture is worth a thousand words.
+This is our color palette where blue and lilac abound. Although these colors are not warm colors, they give us confidence, strength, a refreshing and energetic sensation. For our login we have used the contrast of blue and white that combine perfectly, then in our home we have our logo with its blue color providing the aforementioned characteristics and a menu with a lilac tone that provides a bit of warmth. In our detail we have opted to add some shades to make a different contrast and so the user does not get bored with the same shades. And the icons because a picture is worth a thousand words.\
 ![Screenshot from 2023-04-02 00-57-06](https://user-images.githubusercontent.com/35850550/229323338-946a0583-897f-4e4d-86e5-a6b0a88772ac.png)
 
 
