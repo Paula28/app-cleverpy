@@ -22,10 +22,9 @@ function Navbar() {
     <div className="navbar">
       <div>
         <img src='/img/logo.png' onClick={handleClick} />
-        {/* enlaces y loco */}
       </div>
       <div className='user-info'>
-        <span>{loggedUser?.username} - {loggedUser?.email}</span>
+        <span>Hello! {loggedUser?.username} - {loggedUser?.email}</span>
         <img src='/img/logout.png' onClick={logout} />
       </div>
     </div>
