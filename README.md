@@ -34,7 +34,7 @@ In the login we will find our logo and a small form where the user can log in on
 In the home we will see all the posts that our users have published. The logged in user will see a menu that will consist of our company logo that is on the left, with this option you can click and return to the menu if you are on a different screen, on the right you will find your name and email as welcome and a button logout where he can close his session when he finishes seeing all the posts.
 In the body we will find all the posts and the user will see two icons on his card that will allow him to edit or delete according to the choice he wishes to make. And if you click on the card you will be able to access the post where it will show you the post in more detail and you will be able to see the comments of the different users.
 
-**DETAIL POST**\
+**DETAIL POST**
 
 In the detail of the post the user will see the menu again and will also be able to see in detail the entire post and all the comments it has.
 
