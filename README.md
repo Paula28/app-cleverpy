@@ -57,4 +57,3 @@ Hello! My name is Paula, I've been a full-stack developer for three years, speci
 ![kuma](https://user-images.githubusercontent.com/35850550/229323109-949299e4-c251-45da-a4fd-67fbe085f8e1.jpeg)![odin](https://user-images.githubusercontent.com/35850550/229323108-324467fe-50d5-47f4-b79e-7233502019a5.jpeg)
 I love making desserts and my dream It is being able to have a house where I have an incredible patio to be able to enjoy with my dogs and in the future to be able to rescue different animals.
 
-
