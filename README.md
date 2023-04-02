@@ -44,6 +44,10 @@ You will see the delete post in the home page and it will show a pop up in the f
 
 **COLOR PALETTE**
 ![Screenshot from 2023-04-02 00-57-06](https://user-images.githubusercontent.com/35850550/229323338-946a0583-897f-4e4d-86e5-a6b0a88772ac.png)
+
+
+
+
 This is our color palette where blue and lilac abound. Although these colors are not warm colors, they give us confidence, strength, a refreshing and energetic sensation. For our login we have used the contrast of blue and white that combine perfectly, then in our home we have our logo with its blue color providing the aforementioned characteristics and a menu with a lilac tone that provides a bit of warmth. In our detail we have opted to add some shades to make a different contrast and so the user does not get bored with the same shades. And the icons because a picture is worth a thousand words.
 
 
